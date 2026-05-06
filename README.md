@@ -18,16 +18,10 @@ Este es un microservicio simple creado con Python y FastAPI para convertir imág
 
 1.Clona este repositorio o descarga los archivos.
 2.Navega al directorio del proyecto.
-3.Instala las dependencias:
+3.Instala el contenedor:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-Actualizar requiremtns.txt
-
-```sh
-pip freeze > requirements.txt
+```bash
+docker-compose build
 ```
 
 ## Cómo Ejecutar el Servicio
@@ -35,18 +29,13 @@ pip freeze > requirements.txt
 Para iniciar el servidor, ejecuta el siguiente comando en tu terminal:
 
 ```bash
-uvicorn main:app --reload
+docker-compose up -d
 ```
 
 El servidor estará disponible en `http://127.0.0.1:8000`.
 
-## Docker
+Entra a para probarlo `http://127.0.0.1:8000/docs`.
 
-```sh
-docker-compose down
-docker-compose build
-docker-compose up -d
-```
 
 ## Cómo Usar el Microservicio
 
