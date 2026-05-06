@@ -17,7 +17,9 @@ Este es un microservicio simple creado con Python y FastAPI para convertir imág
 ## Instalación
 
 1.Clona este repositorio o descarga los archivos.
+
 2.Navega al directorio del proyecto.
+
 3.Instala el contenedor:
 
 ```bash
